@@ -1,0 +1,57 @@
+<config>
+<kiosk>
+<application label="MSCA" package="com.oracle.ebs.scm.mwa.MSCA" activity="oracle.adfmf.Container"/>
+</kiosk>
+<applications>
+<application label="AMS Device" package="com.zebra.ams.device" activity="com.zebra.backsafe.android.splash.SplashActivity"/>
+<application label="MSCA" package="com.oracle.ebs.scm.mwa.MSCA" activity="oracle.adfmf.Container"/>
+</applications>
+<tools>
+<application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+<application label="AMS Device" package="com.zebra.ams.device" activity="com.zebra.backsafe.android.splash.SplashActivity"/>
+</tools>
+<passwords>
+<admin attempts="1">L4GTZNx3X9dzIZ75qbKE6E95BKAr4Iohxu5ybnjTOac=pslmpX5Mg9rv9qVicbN8eskr0Oe9kbDeivwEso9dFo8=</admin>
+</passwords>
+<user_options>
+<icon_settings>
+<app_icon_size>L</app_icon_size>
+</icon_settings>
+</user_options>
+<preferences>
+<orientation>landscape</orientation>
+<wallpaper>/data/tmp/public/zebrawall.png<wallpaper/>
+<usb_debugging_disabled>1</usb_debugging_disabled>
+<icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+<foreground_service_auto_launch_enable>1</foreground_service_auto_launch_enable>
+<recent_apps_button_disabled>1</recent_apps_button_disabled>
+<auto_launch_enable>1</auto_launch_enable>
+<keyguard_search_disabled>1</keyguard_search_disabled>
+<recent_apps_access_disabled>1</recent_apps_access_disabled>
+<icon_label_background_color>#00FFFFFF</icon_label_background_color>
+<fullscreen>1</fullscreen>
+<keyguard_camera_disabled>1</keyguard_camera_disabled>
+<kiosk_mode_enabled>0</kiosk_mode_enabled>
+<title>
+<value>[serial_number]</value>
+</title>
+<title_bar_icon>
+<title_bar_icon_disabled>1</title_bar_icon_disabled>
+</title_bar_icon>
+<configurable_user_options>
+<app_icon_settings_disabled>1</app_icon_settings_disabled>
+</configurable_user_options>
+<wireless_info>
+<show_ip_address>0</show_ip_address>
+<show_mac_address>0</show_mac_address>
+<show_bssid>0</show_bssid>
+<show_ssid>0</show_ssid>
+<show_scan_result>0</show_scan_result>
+</wireless_info>
+<screen_blanking>
+<blanking_enabled>0</blanking_enabled>
+<speed_threshold>10</speed_threshold>
+<blanking_mode>1</blanking_mode>
+</screen_blanking>
+</preferences>
+</config>
